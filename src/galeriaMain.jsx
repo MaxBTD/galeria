@@ -21,8 +21,8 @@ const obrazy = [{nr:1, graf:s1, nazwa:"The Guardian Of Sacred The Fruit", opis:"
 
 function GaleriaMain(){
     return(
-        <div classname="galeriaMain">
-            {obrazy.map((o) => <ObrazCell obraz={o}/>)}
+        <div id="galeriaMain">
+                {obrazy.map((o) => <ObrazCell obraz={o}/>)}
         </div>
     );
 }
